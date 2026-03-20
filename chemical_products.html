@@ -153,24 +153,24 @@
             <h3 class="font-headline text-xl md:text-2xl font-bold mb-3">Industrial Solvents</h3>
             <p class="text-secondary text-sm leading-relaxed mb-5">High solvency power solvents for paint, coating, and surface treatment.</p>
             <ul class="space-y-2 mb-6"><li class="flex items-center gap-2 text-sm text-secondary"><span class="material-symbols-outlined text-primary text-[16px]">check</span>High purity</li><li class="flex items-center gap-2 text-sm text-secondary"><span class="material-symbols-outlined text-primary text-[16px]">check</span>REACH compliant</li><li class="flex items-center gap-2 text-sm text-secondary"><span class="material-symbols-outlined text-primary text-[16px]">check</span>Volatility control</li></ul>
-            <button onclick="openModal('solvent')" class="inline-flex items-center gap-2 text-primary font-bold text-sm tracking-widest uppercase hover:text-primary-container transition-colors">Learn More <span class="material-symbols-outlined text-sm">arrow_forward</span></button>
+            
           </div></div><div class="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16 items-center mb-16 md:mb-24 reveal"><div class="lg:pr-8">
             <h3 class="font-headline text-xl md:text-2xl font-bold mb-3">Polymers & Plastics</h3>
             <p class="text-secondary text-sm leading-relaxed mb-5">High-strength PE, PP, PVC, and ABS for packaging, automotive, and construction.</p>
             <ul class="space-y-2 mb-6"><li class="flex items-center gap-2 text-sm text-secondary"><span class="material-symbols-outlined text-primary text-[16px]">check</span>Impact resistant</li><li class="flex items-center gap-2 text-sm text-secondary"><span class="material-symbols-outlined text-primary text-[16px]">check</span>Excellent processability</li><li class="flex items-center gap-2 text-sm text-secondary"><span class="material-symbols-outlined text-primary text-[16px]">check</span>Thermal stability</li></ul>
-            <button onclick="openModal('polymer')" class="inline-flex items-center gap-2 text-primary font-bold text-sm tracking-widest uppercase hover:text-primary-container transition-colors">Learn More <span class="material-symbols-outlined text-sm">arrow_forward</span></button>
+            
           </div>
 <div class="aspect-[4/3] rounded-xl overflow-hidden editorial-shadow lg:pl-8"><img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=900&auto=format&fit=crop&q=80" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700 hover:scale-105"></div></div><div class="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16 items-center mb-16 md:mb-24 reveal"><div class="aspect-[4/3] rounded-xl overflow-hidden editorial-shadow "><img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=900&auto=format&fit=crop&q=80" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700 hover:scale-105"></div>
 <div class="lg:pl-8">
             <h3 class="font-headline text-xl md:text-2xl font-bold mb-3">Agrochemicals & Fertilizers</h3>
             <p class="text-secondary text-sm leading-relaxed mb-5">Plant nutrition and eco-friendly agricultural chemical raw materials.</p>
             <ul class="space-y-2 mb-6"><li class="flex items-center gap-2 text-sm text-secondary"><span class="material-symbols-outlined text-primary text-[16px]">check</span>High solubility</li><li class="flex items-center gap-2 text-sm text-secondary"><span class="material-symbols-outlined text-primary text-[16px]">check</span>Yield-maximizing</li><li class="flex items-center gap-2 text-sm text-secondary"><span class="material-symbols-outlined text-primary text-[16px]">check</span>Eco-conscious</li></ul>
-            <button onclick="openModal('agro')" class="inline-flex items-center gap-2 text-primary font-bold text-sm tracking-widest uppercase hover:text-primary-container transition-colors">Learn More <span class="material-symbols-outlined text-sm">arrow_forward</span></button>
+            
           </div></div><div class="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16 items-center mb-16 md:mb-24 reveal"><div class="lg:pr-8">
             <h3 class="font-headline text-xl md:text-2xl font-bold mb-3">Water Treatment Chemicals</h3>
             <p class="text-secondary text-sm leading-relaxed mb-5">Coagulants, flocculants, and pH balancing solutions for water facilities.</p>
             <ul class="space-y-2 mb-6"><li class="flex items-center gap-2 text-sm text-secondary"><span class="material-symbols-outlined text-primary text-[16px]">check</span>Rapid flocculation</li><li class="flex items-center gap-2 text-sm text-secondary"><span class="material-symbols-outlined text-primary text-[16px]">check</span>Low dosage</li><li class="flex items-center gap-2 text-sm text-secondary"><span class="material-symbols-outlined text-primary text-[16px]">check</span>NSF/ANSI 60</li></ul>
-            <button onclick="openModal('water')" class="inline-flex items-center gap-2 text-primary font-bold text-sm tracking-widest uppercase hover:text-primary-container transition-colors">Learn More <span class="material-symbols-outlined text-sm">arrow_forward</span></button>
+            
           </div>
 <div class="aspect-[4/3] rounded-xl overflow-hidden editorial-shadow lg:pl-8"><img src="https://images.unsplash.com/photo-1546188994-07c34f6e5e1b?w=900&auto=format&fit=crop&q=80" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700 hover:scale-105"></div></div></div>
       </section>
@@ -184,89 +184,11 @@
       </section>
     </main>
     
-        <div id="modal-solvent" class="fixed inset-0 z-[200] hidden items-center justify-center p-4" onclick="if(event.target===this)closeModal('solvent')">
-          <div class="absolute inset-0 bg-black/70 backdrop-blur-sm"></div>
-          <div class="relative bg-white max-w-3xl w-full max-h-[88vh] overflow-y-auto rounded-2xl shadow-2xl z-10">
-            <div class="aspect-[16/7] overflow-hidden rounded-t-2xl">
-              <img src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=900&auto=format&fit=crop&q=80" class="w-full h-full object-cover">
-            </div>
-            <button onclick="closeModal('solvent')" class="absolute top-4 right-4 w-9 h-9 bg-white/90 rounded-full flex items-center justify-center hover:bg-white transition-all shadow-md">
-              <span class="material-symbols-outlined text-zinc-700 text-[20px]">close</span>
-            </button>
-            <div class="p-8 md:p-12">
-              <h2 class="font-headline text-2xl md:text-3xl font-black mb-3">Industrial Solvents</h2>
-              <div class="w-12 h-1 bg-primary mb-6"></div>
-              <p class="text-secondary leading-relaxed mb-6 text-sm md:text-base">Acetone, IPA, ethyl acetate, MEK, and MIBK comply with REACH and RoHS; delivered with EN ISO certification. Bulk, IBC, and drum packaging available.</p>
-              <ul class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-8"><li class="flex items-center gap-2 text-sm"><span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>High purity</li><li class="flex items-center gap-2 text-sm"><span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>REACH compliant</li><li class="flex items-center gap-2 text-sm"><span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>Volatility control</li></ul>
-              <div class="flex flex-wrap gap-4">
-                <a href="contact.html" class="bg-primary text-white px-6 py-3 font-bold rounded-md hover:bg-primary-container transition-all text-sm">Request Quote</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="modal-polymer" class="fixed inset-0 z-[200] hidden items-center justify-center p-4" onclick="if(event.target===this)closeModal('polymer')">
-          <div class="absolute inset-0 bg-black/70 backdrop-blur-sm"></div>
-          <div class="relative bg-white max-w-3xl w-full max-h-[88vh] overflow-y-auto rounded-2xl shadow-2xl z-10">
-            <div class="aspect-[16/7] overflow-hidden rounded-t-2xl">
-              <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=900&auto=format&fit=crop&q=80" class="w-full h-full object-cover">
-            </div>
-            <button onclick="closeModal('polymer')" class="absolute top-4 right-4 w-9 h-9 bg-white/90 rounded-full flex items-center justify-center hover:bg-white transition-all shadow-md">
-              <span class="material-symbols-outlined text-zinc-700 text-[20px]">close</span>
-            </button>
-            <div class="p-8 md:p-12">
-              <h2 class="font-headline text-2xl md:text-3xl font-black mb-3">Polymers & Plastics</h2>
-              <div class="w-12 h-1 bg-primary mb-6"></div>
-              <p class="text-secondary leading-relaxed mb-6 text-sm md:text-base">HDPE, LDPE, PP Homo/Co, PVC, ABS for injection, extrusion, blow molding. FDA/EU food-contact grades. MFI and density customizable. Full technical datasheets included.</p>
-              <ul class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-8"><li class="flex items-center gap-2 text-sm"><span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>Impact resistant</li><li class="flex items-center gap-2 text-sm"><span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>Excellent processability</li><li class="flex items-center gap-2 text-sm"><span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>Thermal stability</li></ul>
-              <div class="flex flex-wrap gap-4">
-                <a href="contact.html" class="bg-primary text-white px-6 py-3 font-bold rounded-md hover:bg-primary-container transition-all text-sm">Request Quote</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="modal-agro" class="fixed inset-0 z-[200] hidden items-center justify-center p-4" onclick="if(event.target===this)closeModal('agro')">
-          <div class="absolute inset-0 bg-black/70 backdrop-blur-sm"></div>
-          <div class="relative bg-white max-w-3xl w-full max-h-[88vh] overflow-y-auto rounded-2xl shadow-2xl z-10">
-            <div class="aspect-[16/7] overflow-hidden rounded-t-2xl">
-              <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=900&auto=format&fit=crop&q=80" class="w-full h-full object-cover">
-            </div>
-            <button onclick="closeModal('agro')" class="absolute top-4 right-4 w-9 h-9 bg-white/90 rounded-full flex items-center justify-center hover:bg-white transition-all shadow-md">
-              <span class="material-symbols-outlined text-zinc-700 text-[20px]">close</span>
-            </button>
-            <div class="p-8 md:p-12">
-              <h2 class="font-headline text-2xl md:text-3xl font-black mb-3">Agrochemicals & Fertilizers</h2>
-              <div class="w-12 h-1 bg-primary mb-6"></div>
-              <p class="text-secondary leading-relaxed mb-6 text-sm md:text-base">Water-soluble NPK complex fertilizers, micro-element blends, humate-based root stimulants. EN 13750/OECD 304 compliant. Powder, liquid, granule with private-label packaging.</p>
-              <ul class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-8"><li class="flex items-center gap-2 text-sm"><span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>High solubility</li><li class="flex items-center gap-2 text-sm"><span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>Yield-maximizing</li><li class="flex items-center gap-2 text-sm"><span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>Eco-conscious</li></ul>
-              <div class="flex flex-wrap gap-4">
-                <a href="contact.html" class="bg-primary text-white px-6 py-3 font-bold rounded-md hover:bg-primary-container transition-all text-sm">Request Quote</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="modal-water" class="fixed inset-0 z-[200] hidden items-center justify-center p-4" onclick="if(event.target===this)closeModal('water')">
-          <div class="absolute inset-0 bg-black/70 backdrop-blur-sm"></div>
-          <div class="relative bg-white max-w-3xl w-full max-h-[88vh] overflow-y-auto rounded-2xl shadow-2xl z-10">
-            <div class="aspect-[16/7] overflow-hidden rounded-t-2xl">
-              <img src="https://images.unsplash.com/photo-1546188994-07c34f6e5e1b?w=900&auto=format&fit=crop&q=80" class="w-full h-full object-cover">
-            </div>
-            <button onclick="closeModal('water')" class="absolute top-4 right-4 w-9 h-9 bg-white/90 rounded-full flex items-center justify-center hover:bg-white transition-all shadow-md">
-              <span class="material-symbols-outlined text-zinc-700 text-[20px]">close</span>
-            </button>
-            <div class="p-8 md:p-12">
-              <h2 class="font-headline text-2xl md:text-3xl font-black mb-3">Water Treatment Chemicals</h2>
-              <div class="w-12 h-1 bg-primary mb-6"></div>
-              <p class="text-secondary leading-relaxed mb-6 text-sm md:text-base">Aluminum sulfate, polyelectrolytes, ferric chloride, sodium hypochlorite. NSF/ANSI 60-compliant grades for drinking water. IBC, bulk, drum delivery with technical service.</p>
-              <ul class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-8"><li class="flex items-center gap-2 text-sm"><span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>Rapid flocculation</li><li class="flex items-center gap-2 text-sm"><span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>Low dosage</li><li class="flex items-center gap-2 text-sm"><span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>NSF/ANSI 60</li></ul>
-              <div class="flex flex-wrap gap-4">
-                <a href="contact.html" class="bg-primary text-white px-6 py-3 font-bold rounded-md hover:bg-primary-container transition-all text-sm">Request Quote</a>
-              </div>
-            </div>
-          </div>
-        </div>
+        
+        
+        
+        
     <script>
-    function openModal(id){const el=document.getElementById('modal-'+id);el.classList.remove('hidden');el.classList.add('flex');document.body.style.overflow='hidden';}
-    function closeModal(id){const el=document.getElementById('modal-'+id);el.classList.add('hidden');el.classList.remove('flex');document.body.style.overflow='';}
     const obs=new IntersectionObserver((e)=>{e.forEach(x=>{if(x.isIntersecting)x.target.classList.add('active');});},{threshold:0.1});
     document.querySelectorAll('.reveal').forEach((el,i)=>{if(i%3===1)el.style.transitionDelay='100ms';if(i%3===2)el.style.transitionDelay='200ms';obs.observe(el);});
     </script><!-- Footer -->
@@ -297,7 +219,7 @@
       <div class="space-y-4">
         <div class="flex items-start gap-3">
           <span class="material-symbols-outlined text-sm mt-0.5">location_on</span>
-          <p>EPS Corporate Consulting<br>Turkey</p>
+          <p>Özker Özgür Cad. No:28, Sefir-1 APT.<br>Floor:1, Door:1 – Küçükkaymaklı / Nicosia<br>Free Port &amp; Zone P.O. Box: 1140<br>SLBT No: 1152</p>
         </div>
         <div class="flex items-center gap-3">
           <span class="material-symbols-outlined text-sm">mail</span>

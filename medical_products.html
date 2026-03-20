@@ -153,24 +153,24 @@
             <h3 class="font-headline text-xl md:text-2xl font-bold mb-3">Surgical Instruments</h3>
             <p class="text-secondary text-sm leading-relaxed mb-5">High-precision ergonomic surgical instruments from medical-grade stainless steel.</p>
             <ul class="space-y-2 mb-6"><li class="flex items-center gap-2 text-sm text-secondary"><span class="material-symbols-outlined text-primary text-[16px]">check</span>Medical grade steel</li><li class="flex items-center gap-2 text-sm text-secondary"><span class="material-symbols-outlined text-primary text-[16px]">check</span>Autoclavable</li><li class="flex items-center gap-2 text-sm text-secondary"><span class="material-symbols-outlined text-primary text-[16px]">check</span>CE MDR 2017/745</li></ul>
-            <button onclick="openModal('surgical')" class="inline-flex items-center gap-2 text-primary font-bold text-sm tracking-widest uppercase hover:text-primary-container transition-colors">Learn More <span class="material-symbols-outlined text-sm">arrow_forward</span></button>
+            
           </div></div><div class="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16 items-center mb-16 md:mb-24 reveal"><div class="lg:pr-8">
             <h3 class="font-headline text-xl md:text-2xl font-bold mb-3">Disposable Consumables</h3>
             <p class="text-secondary text-sm leading-relaxed mb-5">CE-certified single-use clinical consumables for hospitals and clinics.</p>
             <ul class="space-y-2 mb-6"><li class="flex items-center gap-2 text-sm text-secondary"><span class="material-symbols-outlined text-primary text-[16px]">check</span>CE Certification</li><li class="flex items-center gap-2 text-sm text-secondary"><span class="material-symbols-outlined text-primary text-[16px]">check</span>Bacterial barrier</li><li class="flex items-center gap-2 text-sm text-secondary"><span class="material-symbols-outlined text-primary text-[16px]">check</span>Hypoallergenic</li></ul>
-            <button onclick="openModal('disposable')" class="inline-flex items-center gap-2 text-primary font-bold text-sm tracking-widest uppercase hover:text-primary-container transition-colors">Learn More <span class="material-symbols-outlined text-sm">arrow_forward</span></button>
+            
           </div>
 <div class="aspect-[4/3] rounded-xl overflow-hidden editorial-shadow lg:pl-8"><img src="https://images.unsplash.com/photo-1584982751601-97dcc096659c?w=900&auto=format&fit=crop&q=80" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700 hover:scale-105"></div></div><div class="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16 items-center mb-16 md:mb-24 reveal"><div class="aspect-[4/3] rounded-xl overflow-hidden editorial-shadow "><img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=900&auto=format&fit=crop&q=80" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700 hover:scale-105"></div>
 <div class="lg:pl-8">
             <h3 class="font-headline text-xl md:text-2xl font-bold mb-3">Laboratory & Diagnostics</h3>
             <p class="text-secondary text-sm leading-relaxed mb-5">High-accuracy diagnostic kits, centrifuge tubes, and microbiology consumables.</p>
             <ul class="space-y-2 mb-6"><li class="flex items-center gap-2 text-sm text-secondary"><span class="material-symbols-outlined text-primary text-[16px]">check</span>High accuracy</li><li class="flex items-center gap-2 text-sm text-secondary"><span class="material-symbols-outlined text-primary text-[16px]">check</span>IVD compliant</li><li class="flex items-center gap-2 text-sm text-secondary"><span class="material-symbols-outlined text-primary text-[16px]">check</span>Sterile packaging</li></ul>
-            <button onclick="openModal('lab')" class="inline-flex items-center gap-2 text-primary font-bold text-sm tracking-widest uppercase hover:text-primary-container transition-colors">Learn More <span class="material-symbols-outlined text-sm">arrow_forward</span></button>
+            
           </div></div><div class="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16 items-center mb-16 md:mb-24 reveal"><div class="lg:pr-8">
             <h3 class="font-headline text-xl md:text-2xl font-bold mb-3">Hospital Equipment</h3>
             <p class="text-secondary text-sm leading-relaxed mb-5">Motorized patient beds, examination tables, and stainless steel medical cabinets.</p>
             <ul class="space-y-2 mb-6"><li class="flex items-center gap-2 text-sm text-secondary"><span class="material-symbols-outlined text-primary text-[16px]">check</span>Motorized systems</li><li class="flex items-center gap-2 text-sm text-secondary"><span class="material-symbols-outlined text-primary text-[16px]">check</span>Antibacterial coating</li><li class="flex items-center gap-2 text-sm text-secondary"><span class="material-symbols-outlined text-primary text-[16px]">check</span>EN 60601-2</li></ul>
-            <button onclick="openModal('hospital')" class="inline-flex items-center gap-2 text-primary font-bold text-sm tracking-widest uppercase hover:text-primary-container transition-colors">Learn More <span class="material-symbols-outlined text-sm">arrow_forward</span></button>
+            
           </div>
 <div class="aspect-[4/3] rounded-xl overflow-hidden editorial-shadow lg:pl-8"><img src="https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=900&auto=format&fit=crop&q=80" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700 hover:scale-105"></div></div></div>
       </section>
@@ -184,89 +184,11 @@
       </section>
     </main>
     
-        <div id="modal-surgical" class="fixed inset-0 z-[200] hidden items-center justify-center p-4" onclick="if(event.target===this)closeModal('surgical')">
-          <div class="absolute inset-0 bg-black/70 backdrop-blur-sm"></div>
-          <div class="relative bg-white max-w-3xl w-full max-h-[88vh] overflow-y-auto rounded-2xl shadow-2xl z-10">
-            <div class="aspect-[16/7] overflow-hidden rounded-t-2xl">
-              <img src="https://images.unsplash.com/photo-1631815589968-fdb09a223b1e?w=900&auto=format&fit=crop&q=80" class="w-full h-full object-cover">
-            </div>
-            <button onclick="closeModal('surgical')" class="absolute top-4 right-4 w-9 h-9 bg-white/90 rounded-full flex items-center justify-center hover:bg-white transition-all shadow-md">
-              <span class="material-symbols-outlined text-zinc-700 text-[20px]">close</span>
-            </button>
-            <div class="p-8 md:p-12">
-              <h2 class="font-headline text-2xl md:text-3xl font-black mb-3">Surgical Instruments</h2>
-              <div class="w-12 h-1 bg-primary mb-6"></div>
-              <p class="text-secondary leading-relaxed mb-6 text-sm md:text-base">Complete sets for general surgery, orthopedics, ophthalmology, ENT. 420J2/17-4PH/316L steel; EN ISO 7153 and CE MDR compliant. Satin, electrolytic, or matte surface finish to specification.</p>
-              <ul class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-8"><li class="flex items-center gap-2 text-sm"><span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>Medical grade steel</li><li class="flex items-center gap-2 text-sm"><span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>Autoclavable</li><li class="flex items-center gap-2 text-sm"><span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>CE MDR 2017/745</li></ul>
-              <div class="flex flex-wrap gap-4">
-                <a href="contact.html" class="bg-primary text-white px-6 py-3 font-bold rounded-md hover:bg-primary-container transition-all text-sm">Request Quote</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="modal-disposable" class="fixed inset-0 z-[200] hidden items-center justify-center p-4" onclick="if(event.target===this)closeModal('disposable')">
-          <div class="absolute inset-0 bg-black/70 backdrop-blur-sm"></div>
-          <div class="relative bg-white max-w-3xl w-full max-h-[88vh] overflow-y-auto rounded-2xl shadow-2xl z-10">
-            <div class="aspect-[16/7] overflow-hidden rounded-t-2xl">
-              <img src="https://images.unsplash.com/photo-1584982751601-97dcc096659c?w=900&auto=format&fit=crop&q=80" class="w-full h-full object-cover">
-            </div>
-            <button onclick="closeModal('disposable')" class="absolute top-4 right-4 w-9 h-9 bg-white/90 rounded-full flex items-center justify-center hover:bg-white transition-all shadow-md">
-              <span class="material-symbols-outlined text-zinc-700 text-[20px]">close</span>
-            </button>
-            <div class="p-8 md:p-12">
-              <h2 class="font-headline text-2xl md:text-3xl font-black mb-3">Disposable Consumables</h2>
-              <div class="w-12 h-1 bg-primary mb-6"></div>
-              <p class="text-secondary leading-relaxed mb-6 text-sm md:text-base">Syringes, IV catheters, surgical masks, nitrile/latex gloves, IV sets, needles. ISO 13485 QMS and CE MDR compliant. EO sterilization reports and batch certificates as standard.</p>
-              <ul class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-8"><li class="flex items-center gap-2 text-sm"><span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>CE Certification</li><li class="flex items-center gap-2 text-sm"><span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>Bacterial barrier</li><li class="flex items-center gap-2 text-sm"><span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>Hypoallergenic</li></ul>
-              <div class="flex flex-wrap gap-4">
-                <a href="contact.html" class="bg-primary text-white px-6 py-3 font-bold rounded-md hover:bg-primary-container transition-all text-sm">Request Quote</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="modal-lab" class="fixed inset-0 z-[200] hidden items-center justify-center p-4" onclick="if(event.target===this)closeModal('lab')">
-          <div class="absolute inset-0 bg-black/70 backdrop-blur-sm"></div>
-          <div class="relative bg-white max-w-3xl w-full max-h-[88vh] overflow-y-auto rounded-2xl shadow-2xl z-10">
-            <div class="aspect-[16/7] overflow-hidden rounded-t-2xl">
-              <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=900&auto=format&fit=crop&q=80" class="w-full h-full object-cover">
-            </div>
-            <button onclick="closeModal('lab')" class="absolute top-4 right-4 w-9 h-9 bg-white/90 rounded-full flex items-center justify-center hover:bg-white transition-all shadow-md">
-              <span class="material-symbols-outlined text-zinc-700 text-[20px]">close</span>
-            </button>
-            <div class="p-8 md:p-12">
-              <h2 class="font-headline text-2xl md:text-3xl font-black mb-3">Laboratory & Diagnostics</h2>
-              <div class="w-12 h-1 bg-primary mb-6"></div>
-              <p class="text-secondary leading-relaxed mb-6 text-sm md:text-base">EDTA, serum, heparin, fluorescent tubes; immunology/hema/biochem test kits; culture media, petri dishes. CE IVD and ISO 15189-compatible. Custom cold-chain packaging available.</p>
-              <ul class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-8"><li class="flex items-center gap-2 text-sm"><span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>High accuracy</li><li class="flex items-center gap-2 text-sm"><span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>IVD compliant</li><li class="flex items-center gap-2 text-sm"><span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>Sterile packaging</li></ul>
-              <div class="flex flex-wrap gap-4">
-                <a href="contact.html" class="bg-primary text-white px-6 py-3 font-bold rounded-md hover:bg-primary-container transition-all text-sm">Request Quote</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="modal-hospital" class="fixed inset-0 z-[200] hidden items-center justify-center p-4" onclick="if(event.target===this)closeModal('hospital')">
-          <div class="absolute inset-0 bg-black/70 backdrop-blur-sm"></div>
-          <div class="relative bg-white max-w-3xl w-full max-h-[88vh] overflow-y-auto rounded-2xl shadow-2xl z-10">
-            <div class="aspect-[16/7] overflow-hidden rounded-t-2xl">
-              <img src="https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=900&auto=format&fit=crop&q=80" class="w-full h-full object-cover">
-            </div>
-            <button onclick="closeModal('hospital')" class="absolute top-4 right-4 w-9 h-9 bg-white/90 rounded-full flex items-center justify-center hover:bg-white transition-all shadow-md">
-              <span class="material-symbols-outlined text-zinc-700 text-[20px]">close</span>
-            </button>
-            <div class="p-8 md:p-12">
-              <h2 class="font-headline text-2xl md:text-3xl font-black mb-3">Hospital Equipment</h2>
-              <div class="w-12 h-1 bg-primary mb-6"></div>
-              <p class="text-secondary leading-relaxed mb-6 text-sm md:text-base">Three-motor ICU beds, surgical tables, IV poles, infusion stands, storage shelving. EN 60601-2 and CE MDR compliant. Installation, training, and after-sales service included.</p>
-              <ul class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-8"><li class="flex items-center gap-2 text-sm"><span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>Motorized systems</li><li class="flex items-center gap-2 text-sm"><span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>Antibacterial coating</li><li class="flex items-center gap-2 text-sm"><span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>EN 60601-2</li></ul>
-              <div class="flex flex-wrap gap-4">
-                <a href="contact.html" class="bg-primary text-white px-6 py-3 font-bold rounded-md hover:bg-primary-container transition-all text-sm">Request Quote</a>
-              </div>
-            </div>
-          </div>
-        </div>
+        
+        
+        
+        
     <script>
-    function openModal(id){const el=document.getElementById('modal-'+id);el.classList.remove('hidden');el.classList.add('flex');document.body.style.overflow='hidden';}
-    function closeModal(id){const el=document.getElementById('modal-'+id);el.classList.add('hidden');el.classList.remove('flex');document.body.style.overflow='';}
     const obs=new IntersectionObserver((e)=>{e.forEach(x=>{if(x.isIntersecting)x.target.classList.add('active');});},{threshold:0.1});
     document.querySelectorAll('.reveal').forEach((el,i)=>{if(i%3===1)el.style.transitionDelay='100ms';if(i%3===2)el.style.transitionDelay='200ms';obs.observe(el);});
     </script><!-- Footer -->
@@ -297,7 +219,7 @@
       <div class="space-y-4">
         <div class="flex items-start gap-3">
           <span class="material-symbols-outlined text-sm mt-0.5">location_on</span>
-          <p>EPS Corporate Consulting<br>Turkey</p>
+          <p>Özker Özgür Cad. No:28, Sefir-1 APT.<br>Floor:1, Door:1 – Küçükkaymaklı / Nicosia<br>Free Port &amp; Zone P.O. Box: 1140<br>SLBT No: 1152</p>
         </div>
         <div class="flex items-center gap-3">
           <span class="material-symbols-outlined text-sm">mail</span>
