@@ -259,7 +259,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <script>
 document.addEventListener("DOMContentLoaded", () => {
     const mobileMenuOpenBtn = document.getElementById("mobile-menu-open-btn");
-    const mobileMenuCloseBtn = document.getElementById("mobile-menu-close-btn");
+    const mobileMenuKapatBtn = document.getElementById("mobile-menu-close-btn");
     const mobileMenuOverlay = document.getElementById("mobile-menu-overlay");
     const mobileMenuDrawer = document.getElementById("mobile-menu-drawer");
 
@@ -278,7 +278,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     mobileMenuOpenBtn?.addEventListener("click", () => toggleMobileMenu(true));
-    mobileMenuCloseBtn?.addEventListener("click", () => toggleMobileMenu(false));
+    mobileMenuKapatBtn?.addEventListener("click", () => toggleMobileMenu(false));
     mobileMenuOverlay?.addEventListener("click", () => toggleMobileMenu(false));
 
     // Fix horizontal overflow issues by auditing sections
